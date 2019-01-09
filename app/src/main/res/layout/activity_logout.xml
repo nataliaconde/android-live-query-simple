@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.back4app.userregistrationexample.LogoutActivity">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_alignParentStart="true"
+        tools:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome to my app!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="25dp"
+            android:text="Logout"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="Live Query - Increment Value!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnIncrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="25dp"
+
+            android:gravity="end"
+            android:text="Increment"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
