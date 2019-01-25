@@ -52,7 +52,9 @@ public class LogoutActivity extends AppCompatActivity {
 
         final Button increment_button = findViewById(R.id.btnIncrement);
         final ParseUser user = ParseUser.getCurrentUser();
-        ParseLiveQueryClient parseLiveQueryClient = ParseLiveQueryClient.Factory.getClient();//new URI("wss://back4apptestclient.back4app.io/"));
+        ParseLiveQueryClient parseLiveQueryClient = ParseLiveQueryClient.Factory.getClient();
+        /*or use:
+	ParseLiveQueryClient.Factory.getClient(new URI("wss://<your_subdomain>.back4app.io/"));*/
 
         if (parseLiveQueryClient != null) {
             ParseQuery<ParseObject> parseQuery = new ParseQuery("Likes");
